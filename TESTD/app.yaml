@@ -1,0 +1,10 @@
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers: 
+  - url: /
+    static_files: index.html
+    uplode: index.html
+  - url: /styles
+    static_files: style.css
+    uplode: style.css
